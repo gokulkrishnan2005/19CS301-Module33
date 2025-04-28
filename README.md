@@ -107,10 +107,10 @@ def createlist(a):
     print(l)
 ```
 ### OUTPUT
- ![image](https://github.com/user-attachments/assets/a21369b0-1967-4362-b91f-84bb82becbcd)
+ ![image](https://github.com/gokulkrishnan2005/19CS301-Module33/blob/main/vv.png)
 
 ### RESULT
-Thus the python program for printing a list with even numbers up to n, was implemented and executed successfully.
+Thus the python program for printing a list with odd numbers up to n, was implemented and executed successfully.
 
 Exp.No:3(d)	TUPLES- A TUPLE WITH MULTIPLES OF 5
 ### AIM
