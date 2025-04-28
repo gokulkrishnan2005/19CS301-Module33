@@ -151,41 +151,42 @@ print(b)
 print("Length of the tuple is",c)
 ```
 ### OUTPUT
-![image](https://github.com/user-attachments/assets/a16820ca-d669-4520-b141-c4e0a836c910)
+![image](https://github.com/gokulkrishnan2005/19CS301-Module33/blob/main/CC.png)
 
-
- 
 ### RESULT
 Thus the python program for printing a tuple with numbers that are multiples of 9 up to N, was implemented and executed successfully.
 
-Exp.No:3(e)	SEB- STRING SLICING
+Exp.No:3(e)	SEB- ODD OR EVEN
 ### AIM
-To write a python function that accepts the string. Form a new string by reversing the characters in the given string from 4 th position to 10  th position with alternate characters and print the new string.
+To write a python program to define a function to check the number 1781 is even or odd.
+
 ### ALGORITHM
 
-Step 1:	 Begin the program.
+Start
 
-Step 2:	 Take a slice of input_string starting from index 2 up to index 10.
+Read an integer a from the user
 
-Step 3:	 Reverse the substring.
+Check if a % 2 == 1:
 
-Step 4:	 slice the reversed string, extracting every second character, starting from the first.
+If True, print "a is Odd number"
 
-Step 5:	 Print the sliced string in the above step.
+Else, print "a is not Odd number"
 
-Step 6:	 Terminate the program.
+End
+
 ### PROGRAM
 ```
-def slice(input_string):
-    substring = input_string[2:10:]
-    reversed_substring = substring[::-1]
-    print(f"The reversed string is '{reversed_substring[::2]}'")
+a=int(input())
+if a%2==1:
+    print(f"{a} is Odd number")
+else:
+    print(f"{a} is not Odd number")
 ```
 ### OUTPUT
  ![image](https://github.com/user-attachments/assets/1c3e5d33-4525-44e9-93c4-3431af135a04)
 
 ### RESULT
-Thus the python function that accepts the string. Form a new string by reversing the characters in the given string from 4 th position to 10  th position with alternate characters and print the new string was implemented and executed successfully.
+Thus the python program to define a function to check the number 1781 is even or odd was implemented and executed successfully.
 
 
 
