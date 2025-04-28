@@ -35,41 +35,50 @@ def remove(str):
 Thus the python program of function "remove" that accepts a string and removes all the vowels from the string has been implemented and executed successfully.
 
 
-Exp.No:3(b)	REGEX-PATTERN MATCHING USING REGEX
+Exp.No:3(b)	REGEX- MATCHING USING REGEX
 
 ### AIM
-To write a Python program that matches a string that has an a followed by two to three 'b'.
+To write a Python program that matches a word at the beginning of a string.
 ### ALGORITHM
 
-Step 1:	 Begin the program.
+Start
 
-Step 2:	 Accept a string str1 from the user.
+Read a string str from the user
 
-Step 3:	 Define a regular expression pattern as r"[a]+b{2,3}".
+Define a regex pattern: patterns = '^\W+'
 
-Step 4:	 Use the re.match() function to check if the string str1 matches the given pattern. If the string str1 matches the pattern, proceed to step 5. Else If the string str1 does not 
-          match the pattern, proceed to step 6.
+Use re.search(patterns, text) to check if the string starts with non-word characters
 
-Step 5:	 Print "Found a match!" if the string matches the pattern.
+If a match is found:
 
-Step 6:	 Print "Not matched!" if the string does not match the pattern.
+Return "Not matched!"
 
-Step 7:	 Terminate the program.
+Else:
+
+Return "Found a match!"
+
+Print the result
+
+End
 
 ### PROGRAM
-```import re
-str1=input()
-pattern=r"[a]+b{2,3}"
-if re.match(pattern,str1):
-    print("Found a match!")
-else:
-    print("Not matched!")
+```
+import re
+def text_match(text):
+    patterns= '^\W+'
+    if re.search(patterns,text):
+        return("Not matched!")
+    else:
+        return('Found a match!')
+str=input()
+print(text_match(str))
+        
 ```
 ### OUTPUT
  ![image](https://github.com/user-attachments/assets/b473b268-4127-4409-9985-e43d47b02847)
 
 ### RESULT
-Thus the python program for pattern matching using regular expression was  implemented and executed successfully.
+Thus the python program for that matches a word at the beginning of a string was  implemented and executed successfully.
 
 Exp.No:3(c)	LIST- EVEN NUMBERS LIST
 
