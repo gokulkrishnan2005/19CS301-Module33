@@ -183,7 +183,7 @@ else:
     print(f"{a} is not Odd number")
 ```
 ### OUTPUT
- ![image](https://github.com/user-attachments/assets/1c3e5d33-4525-44e9-93c4-3431af135a04)
+ ![image](https://github.com/gokulkrishnan2005/19CS301-Module33/blob/main/XX.png)
 
 ### RESULT
 Thus the python program to define a function to check the number 1781 is even or odd was implemented and executed successfully.
