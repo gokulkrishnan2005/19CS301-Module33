@@ -112,32 +112,43 @@ def createlist(a):
 ### RESULT
 Thus the python program for printing a list with odd numbers up to n, was implemented and executed successfully.
 
-Exp.No:3(d)	TUPLES- A TUPLE WITH MULTIPLES OF 5
+Exp.No:3(d)	TUPLES- A TUPLE WITH MULTIPLE 0F 9
 ### AIM
-To write a python program to create the tuple by the multiples of 5 up to N. Get the N value from the user.
+To write a python program to create the tuple by the multiples of 9 up to N and the print length of the tuple. Get the N value from the user..
 ### ALGORITHM
 
-Step 1:	 Begin the program.
+Start
 
-Step 2:	 Accept an integer N from the user.
+Read an integer a from the user
 
-Step 3:	 Define an empty tuple multiples_of_5.
+Initialize an empty list b
 
-Step 4:	 Loop through the numbers starting from 5, up to N-1 (not including N), with a step size of 5 For each value of i, add i to the tuple multiples_of_5.
+Loop from i = 9 to a - 1:
 
-Step 5:	 Return the multiples_of_5 tuple.
+If i % 9 == 0, then:
 
-Step 6:	 print the resultant tuple.
+Append i to list b
 
-Step 7:	 Terminate the program.
+Convert list b to a tuple
+
+Find the length of the tuple using len(b) and store in c
+
+Print the tuple
+
+Print the length c with a message
+
+End
 ### PROGRAM
 ```
-def create_tuple(N):
-    multiples_of_5 = tuple(i for i in range(5, N, 5))
-    return multiples_of_5
-N = int(input())
-result = create_tuple(N)
-print(f"{result}")
+a=int(input())
+b=[]
+for i in range(9,a):
+    if i%9==0:
+        b.append(i)
+b=tuple(b)
+c=len(b)
+print(b)
+print("Length of the tuple is",c)
 ```
 ### OUTPUT
 ![image](https://github.com/user-attachments/assets/a16820ca-d669-4520-b141-c4e0a836c910)
@@ -145,7 +156,7 @@ print(f"{result}")
 
  
 ### RESULT
-Thus the python program for printing a tuple with numbers that are multiples of 5 up to n, was implemented and executed successfully.
+Thus the python program for printing a tuple with numbers that are multiples of 9 up to N, was implemented and executed successfully.
 
 Exp.No:3(e)	SEB- STRING SLICING
 ### AIM
