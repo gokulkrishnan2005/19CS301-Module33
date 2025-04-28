@@ -29,7 +29,7 @@ def remove(str):
     print(str)
 ```
 ### OUTPUT
- ![image](https://github.com/user-attachments/assets/ab789972-0bcc-4de6-a234-f80f5209ed92)
+ ![image](https://github.com/gokulkrishnan2005/19CS301-Module33/blob/main/nn.png)
 
 ### RESULT
 Thus the python program of function "remove" that accepts a string and removes all the vowels from the string has been implemented and executed successfully.
