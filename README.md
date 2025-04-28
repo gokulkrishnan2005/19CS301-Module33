@@ -75,15 +75,15 @@ print(text_match(str))
         
 ```
 ### OUTPUT
- ![image](https://github.com/user-attachments/assets/b473b268-4127-4409-9985-e43d47b02847)
+ ![image](https://github.com/gokulkrishnan2005/19CS301-Module33/blob/main/bb.png)
 
 ### RESULT
 Thus the python program for that matches a word at the beginning of a string was  implemented and executed successfully.
 
-Exp.No:3(c)	LIST- EVEN NUMBERS LIST
+Exp.No:3(c)	LIST- ODD NUMBERS LIST
 
 ### AIM
-To write a python function that accepts N and to create a list with even numbers up to N.
+To write a python function that accepts N and to create a list with odd numbers up to N.
 ### ALGORITHM
 
 Step 1:	 Begin the program.
@@ -92,16 +92,17 @@ Step 2:	 Accept an integer a.
 
 Step 3:	 Create an empty list l.
 
-Step 4:	In For Loop, Iterate through the numbers from 1 to a-1.For each number i, check if i is even: If i % 2 == 0, append i to the list l.
+Step 4:	In For Loop, Iterate through the numbers from 1 to a-1.For each number i, check if i is even: If i % 2 == 1, append i to the list l.
 
-Step 5:	 Print the list l which contains all even numbers from 1 to a-1.
+Step 5:	 Print the list l which contains all odd numbers from 1 to a-1.
 
 Step 6:	 Terminate the program.
 ### PROGRAM
-```def createlist(a):
+```
+def createlist(a):
     l=[]
     for i in range(1,a):
-        if (i%2==0):
+        if (i%2==1):
             l.append(i)
     print(l)
 ```
