@@ -1,35 +1,38 @@
 # 19CS301-Module33
-Exp.No:3(a)	STRING- FIND AND REPLACE
+Exp.No:3(a)	STRING- REMOVE A STRING
 ### AIM
-To write a python function to accept a string, word to be replaced and replace the words of the string, get the new word to be replaced from the user.
+To write a function "remove" that accepts a string and removes all the vowels from the string.
 ### ALGORITHM
-Step 1:	 Begin the program.
+Start
 
-Step 2:	 Input the original string (str1) and the word to replace (replace_str)
+Define a string vowels = "aeiouAEIOU"
 
-Step 3:	 Ask the user to input the replacement word (str2).
+Read string str (passed to the function)
 
-Step 4:	 Replace all occurrences of replace_str in str1 with str2 using replace() method in Python.
+For each character i in str:
 
-Step 5:	 The modified string is stored in str3.
+If i is in vowels:
 
-Step 6:	 Display the original string (str1) to show the user the initial string.
+Replace all occurrences of i in str with an empty string ""
 
-Step 7:	 Display the modified string (str3) to show the user the string after the replacement.
+Print the modified str (with vowels removed)
 
-Step 8:	 Terminate the program.
+End
 
 ### PROGRAM
-```def replacestr(str1,replace_str):
-    str2=input()
-    str3=str1.replace(replace_str,str2)
-    print(f"The old string is {str1}\nthe new string is {str3}")
+```
+def remove(str):
+    vowels="aeiouAEIOU"
+    for i in str:
+        if i in vowels:
+            str=str.replace(i,"")
+    print(str)
 ```
 ### OUTPUT
  ![image](https://github.com/user-attachments/assets/ab789972-0bcc-4de6-a234-f80f5209ed92)
 
 ### RESULT
-Thus the python program of find and replace is implemented and executed successfully.
+Thus the python program of function "remove" that accepts a string and removes all the vowels from the string has been implemented and executed successfully.
 
 
 Exp.No:3(b)	REGEX-PATTERN MATCHING USING REGEX
